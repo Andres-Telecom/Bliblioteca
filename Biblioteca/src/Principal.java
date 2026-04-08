@@ -20,6 +20,8 @@ public class Principal {
 
         System.out.println("Libro 1 :"+l1.mostrarInformacion());
         System.out.println("Libro 2 :"+l2.mostrarInformacion());
+        l1.setTitulo("Nuevo Titulo");
+        System.out.println("Libro 1 :"+l1.mostrarInformacion()); 
     }
 
 }

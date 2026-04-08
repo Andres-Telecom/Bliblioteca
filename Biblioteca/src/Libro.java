@@ -21,6 +21,14 @@ public class Libro {
         anio=an;
         cantidadEjemplares=can;
     }
+    public Libro(int cantidadEjemplares,
+                 String autor, String categoria, String titulo, int anio){
+        this.titulo=titulo;
+        this.autor=autor;
+        this.categoria=categoria;
+        this.anio=anio;
+        this.cantidadEjemplares=cantidadEjemplares;
+    }
 
     public String mostrarInformacion(){
         String aux="";
@@ -39,5 +47,7 @@ public class Libro {
         }
         return -1; //significa que no hay ejemplares
     }
-
+   public void setTitulo(String titulo){
+        this.titulo = titulo;
+   }
 }
