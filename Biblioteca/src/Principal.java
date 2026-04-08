@@ -22,7 +22,11 @@ public class Principal {
         System.out.println("Libro 2 :"+l2.mostrarInformacion());
         l1.setTitulo("Nuevo Titulo");
         System.out.println("Libro 1 :"+l1.mostrarInformacion());
-        l1.setTitulo("Principito");
+        l1.setTitulo("El Principito");
+        l1.setAutor("Antoine de Saint-Exupéry");
+        l1.setCategoria("Cuento");
+        l1.setAnio(1943);
+        l1.setCantidadEjemplares(10);
         System.out.println("Libro 1 :"+l1.mostrarInformacion());
     }
 
